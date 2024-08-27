@@ -1,0 +1,19 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    line-height: 1.6;
+    background-color: aqua;
+    color: black;
+}
+
+.site-header{
+    background-color: black;
+    color: #fff;
+    padding: 1rem 0;
+    text-align: center;
+}
