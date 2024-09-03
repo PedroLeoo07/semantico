@@ -11,14 +11,20 @@ body {
     color: black;
 }
 
-.site-header{
+.site-header {
     background-color: black;
     color: #ffffff;
     padding: 1rem 0;
     text-align: center;
 }
 
-.site-title{
+.site-title {
     margin-bottom: 10px;
-    font-size: 2rem;
+    font-size: 2em;
+}
+
+.main-nav .nav-list {
+    list-style: none;
+    display: flex;
+    justify-content: center;
 }
