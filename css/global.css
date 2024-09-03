@@ -7,8 +7,8 @@
 body {
     font-family: Georgia, 'Times New Roman', Times, serif;
     line-height: 1.6;
-    background-color: aqua;
-    color: black;
+    background-color: #777;
+    color: rgb(41, 39, 39);
 }
 
 .site-header {
@@ -16,6 +16,16 @@ body {
     color: #ffffff;
     padding: 2rem 0;
     text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.nav-list{
+    justify-content:space-between;
+    display: flex;
+    width: 200px;
 }
 
 .site-title {
@@ -23,8 +33,124 @@ body {
     font-size: 2em;
 }
 
-.main-nav .nav-list {
+.main-nav .nav-link {
     list-style: none;
     display: flex;
     justify-content: center;
+}
+
+.main-nav{
+    margin 0 15px;
+}
+
+.main-nav .nav-link{
+    color: #ff0000;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+.main-nav .nav-link:hover{
+    color: #fff;
+
+}
+
+.main-content{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 40px auto;
+    padding: 0 20px;
+}
+
+.article {
+    flex: 3;
+    background-color: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 4px #ff0000;
+    border-radius: 20px;
+}
+  
+.article-header{
+    border-bottom: 2px solid #ff0000;
+    margin-bottom: 15px;
+    padding-bottom: 10px;
+}
+
+.article-title{
+    color:black;
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+}
+
+.article-meta{
+    color: #777;
+    font-size: 0.9rem;
+}
+
+.article-selection{
+    margin-bottom: 20px;
+}
+
+.section-title{
+    font-size: 1.4rem;
+    color: #555;
+    margin-top: 10px;
+}
+
+.section-text{
+    margin-bottom: 15px;
+    color: #555;
+    line-height: 1.0;
+}
+
+.image-figure{
+    margin-top: 20px 0;
+}
+
+.article-image{
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.image-caption{
+    text-align: center;
+    font-size: 0.10rem;
+    color: #555;
+    margin-top: 5px;
+}
+
+.aside-bar{
+    flex: 1;
+    background-color: #ff0000;
+    padding: 40px;
+    box-shadow: 0 2px 4px rgb(160, 160, 160);
+    border-radius: 20px;
+}
+
+.sidebar-title{
+    font-size: 1.6rem;
+    color:#ffffff;
+    margin-top: 10px;
+}
+
+.sidebar-text{
+    color: #ffffff;
+    line-height: 1.5;
+}
+
+.site-footer{
+    background-color: #000000;
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+    color: #fff;
+}
+
+a{
+    text-decoration: none;
+    color: #fff;
 }
