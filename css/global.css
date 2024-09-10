@@ -25,7 +25,7 @@ body {
 .nav-list{
     justify-content:space-between;
     display: flex;
-    width: 200px;
+    width: 300px;
 }
 
 .site-title {
@@ -69,12 +69,12 @@ body {
     background-color: #fff;
     padding: 20px;
     margin-bottom: 20px;
-    box-shadow: 0 2px 4px #ff0000;
+    box-shadow: 0 2px 4px #5a5a5a;
     border-radius: 20px;
 }
   
 .article-header{
-    border-bottom: 2px solid #ff0000;
+    border-bottom: 2px solid #757474;
     margin-bottom: 15px;
     padding-bottom: 10px;
 }
@@ -125,7 +125,7 @@ body {
 
 .aside-bar{
     flex: 1;
-    background-color: #ff0000;
+    background-color: #6d6d6d;
     padding: 40px;
     box-shadow: 0 2px 4px rgb(160, 160, 160);
     border-radius: 20px;
